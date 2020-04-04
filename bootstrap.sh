@@ -12,5 +12,5 @@ rm ~/.tmux/dev
 ln $project_root/dot-tmux/dev ~/.tmux/dev
 
 echo "Installing TPM for tmux..."
-rm ~/.tmux/plugins/tpm
+rm -rf ~/.tmux/plugins/tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
